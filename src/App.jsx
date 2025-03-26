@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Tailwind from './components/tailwind/Tailwind'
 import './index.css'
 import Login from './components/login/Login'
+import TicTag from './components/tictac/TicTag'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Tailwind />}></Route>
           <Route path='/login' element={<Login />}></Route>
+          <Route path='/tictag' element={<TicTag />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
