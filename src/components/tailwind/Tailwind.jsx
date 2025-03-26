@@ -25,8 +25,8 @@ function Tailwind() {
             <div className='flex gap-50 mr-15 ml-15 mt-13'>
                 <div  className=" ml-10 w-2xl h-80">
                     <h1 className='text-base sm:text-lg md:text-2xl lg:text-8xl font-bold mb-5'>YOUR FEET<br></br> DESERVE<br></br> BETTER</h1>
-                    <button className='border-1 pr-8 pl-8 pb-2 pt-2 mr-4 rounded-md bg-red-600 text-white'>Shop Now</button>
-                    <button className='border-1 pr-8 pl-8 pb-2 pt-2 rounded-md'>Category</button>
+                    <button className='border-1 pr-8 pl-8 pb-2 pt-2 mr-4 rounded-md bg-red-600 text-white hover:bg-red-800 cursor-pointer'>Shop Now</button>
+                    <button className='border-1 pr-8 pl-8 pb-2 pt-2 bg-white rounded-md cursor-pointer hover:text-red-600 '>Category</button>
                 </div>
                 <div className='' ><img src="src/assets/nike_shoe.avif" alt="image of shoe" width={"800px"} /></div>
             </div>
