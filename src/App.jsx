@@ -5,6 +5,7 @@ import './index.css'
 import Login from './components/login/Login'
 import TicTag from './components/tictac/TicTag'
 import Game from './components/games/Game'
+import Pagination from './components/pagination/Pagination'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/login' element={<Login />}></Route>
           <Route path='/tictag' element={<TicTag />}></Route>
           <Route path='/game' element={<Game />}></Route>
+          <Route path='/pagination' element={<Pagination />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
