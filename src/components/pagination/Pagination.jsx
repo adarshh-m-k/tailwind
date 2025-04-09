@@ -24,6 +24,7 @@ function Pagination() {
             <div className='rounded-lg m-3 p-5 flex items-center flex-col border-2 w-70 h-70'>
                 <img src={image} alt={title} className='w-50 h-50 ' />
                 <span>{title}</span>
+                
             </div>
         );
     };

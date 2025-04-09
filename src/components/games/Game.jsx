@@ -43,17 +43,15 @@ function Game() {
         } else if (storage[2] === storage[4] && storage[4] === storage[6] && storage[6] !== "") {
             won(storage[6])
         }
-        // else if (storage[1] === storage[4] && storage[4] === storage[7] && data[7] !== "") {
-        //     won(storage[7])
-        // }
+     
     }
 
     const won = (winner) => {
         setLock(true)
         if (winner === "X") {
-            titleRef.current.innerHTML = `Congratulation: <span style="display: inline-flex; align-items: center;"><img src=${circle} style="width: 20px; height: 20px margin: 10px; " /></span>`;
+            titleRef.current.innerHTML = `Happy birthday O: <span style="display: inline-flex; align-items: center;"><img src=${multiple} style="width: 20px; height: 20px margin: 10px; " /></span>`;
         } else {
-            titleRef.current.innerHTML = `Congratulation: <span style="display: inline-flex; align-items: center;"><img src=${multiple} style="width: 20px; height: 20px margin: 10px; " /></span>`;
+            titleRef.current.innerHTML = `Congratulation X: <span style="display: inline-flex; align-items: center;"><img src=${circle} style="width: 20px; height: 20px margin: 10px; " /></span>`;
         }
     }
     return (
