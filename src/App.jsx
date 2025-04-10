@@ -6,6 +6,8 @@ import Login from './components/login/Login'
 import TicTag from './components/tictac/TicTag'
 import Game from './components/games/Game'
 import Pagination from './components/pagination/Pagination'
+import Sample from './components/sample/Sample'
+import SingleDish from './components/singleDish/SingleDish'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
           <Route path='/tictag' element={<TicTag />}></Route>
           <Route path='/game' element={<Game />}></Route>
           <Route path='/pagination' element={<Pagination />}></Route>
+          <Route path='/sample' element={<Sample />}></Route>
+          <Route path='/dish/:id' element={<SingleDish />}></Route>
         </Routes>
       </BrowserRouter>
     </div>
