@@ -8,6 +8,7 @@ import Game from './components/games/Game'
 import Pagination from './components/pagination/Pagination'
 import Sample from './components/sample/Sample'
 import SingleDish from './components/singleDish/SingleDish'
+import Sample2 from './components/sample2/Sample2'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/game' element={<Game />}></Route>
           <Route path='/pagination' element={<Pagination />}></Route>
           <Route path='/sample' element={<Sample />}></Route>
+          <Route path='/sample2' element={<Sample2 />}></Route>
           <Route path='/dish/:id' element={<SingleDish />}></Route>
         </Routes>
       </BrowserRouter>

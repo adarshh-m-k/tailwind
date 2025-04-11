@@ -54,7 +54,7 @@ function Sample() {
                     list.slice(start, end).map((obj, index) => (
                         <div key={index}  onClick={()=>navigate(`/dish/${obj.id}`)} className='m-3 rounded-lg shadow-xl border-1 w-60 h-60 flex flex-col pt-2 items-center'>
                             <h1>{obj.name}</h1>
-                            <img className='rounded-xl m-3' src={obj.image} alt={name} width={"170px"} />
+                            <img className='rounded-xl m-3' src={obj.image} alt={obj.name} width={"170px"} />
                         </div>
                     ))
                 }
