@@ -9,6 +9,7 @@ import Pagination from './components/pagination/Pagination'
 import Sample from './components/sample/Sample'
 import SingleDish from './components/singleDish/SingleDish'
 import Sample2 from './components/sample2/Sample2'
+import Inputs from './components/inputs/Inputs'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/pagination' element={<Pagination />}></Route>
           <Route path='/sample' element={<Sample />}></Route>
           <Route path='/sample2' element={<Sample2 />}></Route>
+          <Route path='/input' element={<Inputs />}></Route>
           <Route path='/dish/:id' element={<SingleDish />}></Route>
         </Routes>
       </BrowserRouter>
